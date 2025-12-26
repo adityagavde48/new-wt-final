@@ -1,0 +1,86 @@
+:root {
+  --bg: #020617;
+  --card: #0b1020;
+  --border: rgba(148,163,184,0.3);
+  --accent: #6366f1;
+  --text: #f9fafb;
+  --muted: #9ca3af;
+}
+
+.review-body {
+  background: radial-gradient(circle at top, #1e293b, #020617);
+  color: var(--text);
+  font-family: Poppins, system-ui;
+  padding: 20px;
+}
+
+.card-main {
+  background: var(--bg);
+  border-radius: 24px;
+  padding: 20px;
+  border: 1px solid var(--border);
+}
+
+.page-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.page-subtitle {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.role-pill {
+  border-radius: 999px;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  font-size: 0.7rem;
+}
+
+.card-section {
+  background: linear-gradient(135deg, #050816, #070e25);
+  border-radius: 18px;
+  padding: 14px;
+  border: 1px solid var(--border);
+}
+
+.section-title {
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+  color: #e5e7eb;
+}
+
+.stat-card-lg {
+  background: #050816;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid var(--border);
+}
+
+.stat-card-lg span {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.stat-card-lg h3 {
+  margin: 4px 0 0;
+}
+
+.stat-card-lg.success h3 { color: #22c55e; }
+.stat-card-lg.warning h3 { color: #eab308; }
+.stat-card-lg.danger h3 { color: #ef4444; }
+
+.manager-notes {
+  background: #020617;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 12px;
+}
+
+.btn-primary-gradient {
+  background: linear-gradient(120deg, #6366f1, #8b5cf6);
+  border: none;
+  border-radius: 999px;
+  padding: 6px 18px;
+}
